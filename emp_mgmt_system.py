@@ -130,8 +130,9 @@ def menu():
     print("9. Exit")
 
 def main():
-    file_path = 'company_data.json'
+    file_path = 'company_data.json' # specify the file path
 
+    # check if file exists, load data if it does
     try:
         company = Company.load_from_file(file_path)
         print('data loaded successfully')
