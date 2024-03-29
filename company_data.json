@@ -1,0 +1,16 @@
+{
+    "departments": [
+        {
+            "name": "tech",
+            "employees": []
+        },
+        {
+            "name": "qa",
+            "employees": []
+        },
+        {
+            "name": "hr",
+            "employees": []
+        }
+    ]
+}
